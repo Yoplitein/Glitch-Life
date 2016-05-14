@@ -8,7 +8,7 @@ int main(int argc, char **argv)
 {
     std::vector<std::string> dirs;
     
-    recurseSubdirs(".", dirs);
+    recurseSubdirs(getWorkDir(), dirs);
     std::cout << "dirs:\n";
     
     for(string dir: dirs)
