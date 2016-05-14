@@ -53,3 +53,4 @@ endif()
 
 include_directories(src)
 add_executable(gsrand ${SOURCE_FILES})
+add_executable(test src/test.cpp src/Util.cpp)
